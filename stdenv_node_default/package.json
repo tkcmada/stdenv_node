@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.162.0",
     "babel-polyfill": "^6.20.0",
     "serverless": "^1.24.1",
     "slickgrid": "^2.3.3",
@@ -16,6 +17,8 @@
     "vue": "^2.1.8"
   },
   "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.26",
+    "serverless-offline": "^3.16.0",
     "tslint": "^4.2.0",
     "typescript": "^2.1.4"
   }
