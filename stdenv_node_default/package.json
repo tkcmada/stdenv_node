@@ -1,0 +1,22 @@
+{
+  "name": "stdenv_node_default",
+  "version": "1.0.0",
+  "description": "This project offers default package dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "serverless": "^1.24.1",
+    "slickgrid": "^2.3.3",
+    "typescript": "^2.6.2",
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4"
+  }
+}
